@@ -1,7 +1,8 @@
 ---
-title: "Statistical Graphics (GR5293) Final Project"
-subtitle: "New York Restaurant Inspection Result Analysis"
-author: "Dong Hyeun Kim dk2601 Chengcheng Yuan cy2434"
+title: "New York Restaurant Inspection Result Analysis"
+author:
+ - "Chengcheng Yuan"
+ - "Dong Hyeun Kim"
 output:
   html_document: default
   pdf_document: default
@@ -62,7 +63,7 @@ library(viridis)
 library(stringr)
 library(choroplethrZip)
 # import the data
-df <- read.csv("NYrestaurants.csv",  na.strings = c(" ","", "N/A","missing"), header = T, as.is = T)
+df <- read.csv("../data/NYrestaurants.csv",  na.strings = c(" ","", "N/A","missing"), header = T, as.is = T)
 ```
 
 
